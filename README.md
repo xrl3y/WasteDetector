@@ -188,9 +188,48 @@ At the end of training, the new model weights (best.pt) are saved in: WasteDetec
 You can replace the default pre-trained weights with these to improve accuracy with your own dataset.
 
 
+---
+
+## ✅ Recommendations
+
+- It is recommended to use **Python 3.10.0** to ensure compatibility with YOLOv8 models and libraries.  
+- Make sure your **camera drivers** are correctly installed so the application can access the video stream.  
+- Use a **well-lit environment** when testing detection to improve accuracy.  
+- If you want to improve performance, consider retraining the model with **a larger or more specific dataset**.  
+- When modifying the interface, keep consistent file names inside the `setUp/` folder to avoid runtime errors.  
+
+---
+
+## 🔮 Future Improvements
+
+- Add support for **more waste categories** (e.g., batteries, electronics).  
+- Optimize the model for **edge devices** such as Raspberry Pi or Jetson Nano.  
+- Implement a **web-based interface** to allow remote use of the detector.  
+- Add a **logging system** to save classification history and statistics.  
+- Integrate **voice feedback** to announce detected categories in real time.  
+
+---
+
+## 🙌 Final Notes
+
+Waste Detector is a project that combines **artificial intelligence, computer vision, and sustainability**.  
+It aims to encourage proper recycling habits while showcasing how deep learning can be applied to solve everyday environmental challenges.  
+
+Contributions, improvements, and suggestions are always welcome!  
+
+---
+
+
+## Author
+
+This project was developed by **xrl3y**.
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 
 
+## 📜 License
 
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
 
